@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+strong {
+    font-style: bold;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    width: 100%;
+    background-color: #FFAA00;
+    z-index: 3;
+    top: 0;
+    left: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 15%;
+    height: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header .menu-toggle img {
+    width: 95%;
+    height: 95%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.menu {
+    color: white;
+    justify-content: space-between;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.menu a {
+    padding: 3px;
+    display: inline-block
+}
+
+.ola-novamente {
+    text-align: center;
+    color: #FFAA00;
+    margin-top: 150px;
+    font-size: 12px;
+
+}
+
+.ja-sou-cadastrado {
+    margin-top: 5%;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+}
+
+.form-ja-sou-cadastrado {
+    text-align: center;
+}
+
+.esqueci-minhas-senha {
+    font-size: 10px;
+}
+
+.botao-entrar {
+    background-color: #FFAA00;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50px 50px;
+    padding: 5px 40px;
+}
+
+.botao-criar-conta {
+    margin-top: 1%;
+    margin-block-end: 5%;
+    background-color: #FFAA00;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50px 50px;
+    padding: 5px 40px;
+}
+
+.ja-sou-cadastrado {
+    font-weight: bold;
+}
+
+.quero-me-cadastrar {
+    font-weight: bold;
+    margin-top: 5%;
+   }
+
+.carrinho-compras {
+    text-align: center;
+    color: #FFAA00;
+    margin-top: 150px;
+    font-size: 14px;
+    text-align: center;
+    color: #FFAA00;
+    margin-top: 150px;
+    font-size: 12px;
+}   
+
+.seus-produtos {
+    text-align: left;
+    margin-left: 10%;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-block-end: 3%;
+    margin-top: 3%;
+}
+
+.foto-do-produto {
+    margin-left: 10%;
+    image-resolution: 72px;
+}
+
+.titulo-produto {
+    font-size: 16;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-block-end: 1%;
+}
+
+.titulo-produto-2 {
+    font-size: 16;
+    font-weight: bold;
+    margin-block-end: 1%;
+}
+
+.titulo-produto-3 {
+    font-size: 16;
+    font-weight: bold;
+    margin-block-end: 1%;
+}
+
+.descricao-do-produto {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.descricao-do-produto-2 {
+    margin-right: 10%;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.descricao-do-produto-3 {
+    margin-right: 10%;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.price {
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-block-end: 1%;
+    font-weight: bold;
+}
+
+.price-2 {
+    margin-top: 1%;
+    margin-block-end: 1%;
+    font-weight: bold;
+}
+
+.price-3 {
+    margin-top: 1%;
+    margin-block-end: 1%;
+    font-weight: bold;
+}
+
+.opcoes {
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-block-end: 3%;
+}
+
+.botao-excluir {
+    margin-top: 1%;
+    margin-block-end: 5%;
+    background-color:red;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 40px 40px;
+    padding: 5px 30px;
+    margin-right: 1%;
+}
+
+.mais-categorias {
+    margin-top: 1%;
+    margin-block-end: 5%;
+    background-color:mediumvioletred;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 40px 40px;
+    padding: 5px 30px;
+    margin-right: 1%;
+}
+
+.comprar-agora {
+    margin-top: 1%;
+    margin-block-end: 5%;
+    background-color:green;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 40px 40px;
+    padding: 5px 30px;
+    margin-right: 1%;
+} 
+
+.salvar-para-depois {
+    margin-top: 1%;
+    margin-block-end: 5%;
+    background-color:#00acea;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 40px 40px;
+    padding: 5px 30px;
+    margin-right: 1%;
+}
+
+.compartilhar-produto {
+    margin-top: 1%;
+    margin-block-end: 5%;
+    background-color:blueviolet;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 40px 40px;
+    padding: 5px 30px;  
+}
+
+.botao-compra-total {
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50px 50px;
+    padding: 10px 50px;
+    background: black;
+    margin-block-end: 100px;
+    margin-top: 80px;
+}
+
+.pagamento {
+    text-align: center;
+    color: #FFAA00;
+    margin-top: 150px;
+    font-size: 12px;
+
+}
+
+.endereco-entrega {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 14px;
+    font-weight: bold;
+    margin-block-end: 1%;
+}
+
+.endereco-completo {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.dados-pagamento {
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 14px;
+    font-weight: bold;
+    margin-block-end: 1%;
+}
+
+.pag-cartao-credito {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 16px;
+    font-weight: normal;
+    margin-block-end: 1%;
+}
+
+.pag-pix {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 16px;
+    font-weight: normal;
+    margin-block-end: 1%;
+}
+
+.pag-boleto {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 16px;
+    font-weight: normal;
+    margin-block-end: 1%;
+}
+
+.botao-escolher-pagamento {
+    margin-top: 1%;
+    margin-block-end: 5%;
+    background-color: #FFAA00;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px 5px;
+    padding: 5px 30px;
+    margin-left: 10%;
+}
+
+.esqueci-minha-senha {
+    text-align: center;
+}
+
+.espaco-p-email {
+    text-align: center;
+}
+
+.botao-continuar {
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50px 50px;
+    padding: 5px 40px;
+    background: #FFAA00;
+    margin-block-end: 100px;
+}
+
+.botao-cancelar {
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50px 50px;
+    padding: 5px 40px;
+    background: black;
+    margin-block-end: 100px;
+}
+
+.botoes {
+    text-align: center;
+}
+
+.botao-comecar {
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 50px 50px;
+    padding: 5px 40px;
+    background: #FFAA00;
+    margin-block-end: 100px;
+}
+
+.dados-cartao {
+    font-weight: bold;
+}
+
+.format-dados-cartao {
+    text-align: left;
+    background: center;
+    background-color:rgba(0, 0, 0, 0.05);
+    margin-right: 60%;
+    margin-left: 10%;
+    padding: 30px;
+}
+
+footer {
+    background-color: #444242; 
+    color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .logo-footer {
+    text-align: center;
+}
+
+footer .copyrights {
+    text-align: center;
+    font-size: 8px;
+    margin-top: 80px;
+}
+
+
+footer .container .menu-footer {
+    text-align: left;
+}
+
+footer .menu-footer a {
+    text-decoration: none;
+}
+
+footer .container .contato {
+    text-align: left;
+}
+
+footer .container .social-medias {
+    text-align: center;
+}
+
+footer a:any-link{
+    color: #FFFFFF;
+}
+
+.contactinfo {
+    font-size: 12px;
+}
+
+@media (max-width: 900px) {
+    .container {
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 740px) {
+    footer {
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+}
